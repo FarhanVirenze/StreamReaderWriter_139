@@ -11,7 +11,12 @@ int main()
 		//throw 0.5; //melemparkan sebuah integer maka
 		cout << "Pernyataan tidak akan dieksekusi" << endl;
 	}
+	catch (int a) {
+		//blok ini akan dieksekusi
+		cout << "Pengecualian akan dieksekusi" << endl;
+	}
 	
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
