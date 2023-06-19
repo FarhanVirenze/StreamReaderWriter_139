@@ -6,8 +6,12 @@ using namespace std;
 
 int main()
 {
+	try {
+		cout << "Selamat Belajar di Prodi TI UMY" << endl;
+		//throw 0.5; //melemparkan sebuah integer maka
+		cout << "Pernyataan tidak akan dieksekusi" << endl;
+	}
 	
-
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
