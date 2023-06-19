@@ -1,4 +1,4 @@
-// ioFile.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// ioFile2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <fstream>
@@ -8,6 +8,10 @@ using namespace std;
 
 int main() {
     string baris;
+    string NamaFile;
+
+    cout << "Masukan Nama File : ";
+    cin >> NamaFile;
 
     // membuka file dalam mode menulis.
     ofstream outfile;
